@@ -1,9 +1,5 @@
 <?php
-    // WARNING
-    // This code should NOT be used as is. It is vulnerable to path traversal. https://www.owasp.org/index.php/Path_Traversal
-    // You should sanitize $_GET['directtozip']
-    // For tips to get started see http://stackoverflow.com/questions/4205141/preventing-directory-traversal-in-php-but-allowing-paths
- 
+   
     //Get the directory to zip
     $filename_no_ext= $_GET['ivm'];
  
