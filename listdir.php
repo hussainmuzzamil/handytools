@@ -1,4 +1,5 @@
 <?php
+/*This will enlist all the files at a directory of a remote server*/
 
 $dir="/"; // Directory where files are stored
 
