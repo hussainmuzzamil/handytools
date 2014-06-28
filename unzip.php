@@ -5,7 +5,7 @@ This tool will extract any zip file in to current directory of a remote web serv
 
 */
 $zip = new ZipArchive; 
-    if ($zip->open("ivm.zip")){ 
+    if ($zip->open("filename.zip")){ 
         $path = getcwd() . "/"; 
         $path = str_replace("\\","/",$path); 
         echo $path; 

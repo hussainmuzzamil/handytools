@@ -4,6 +4,7 @@
 // got this solution form http://stackoverflow.com/questions/3828385/compress-archive-folder-using-php-script
 // this is tested and verified script
 ////////////////////////////////////////////////////////////////////////////////////////
+//bug fund as its only good for 1st level of archive not nested 
 
 // increase script timeout value
 ini_set('max_execution_time', 5000);
