@@ -1,18 +1,15 @@
 <?php
-/*This will enlist all the files at a directory of a remote server*/
+//Date added: 25-Jul-2014
+//This will enlist all the files at a directory of a remote server in
+//most common use is in adding fully qualified path to a DB connection. 
+//can also be used to facilitate on openCart config.php
+// current directory
+echo getcwd() . "\n";
 
-$dir="/"; // Directory where files are stored
+chdir('cvs');
 
-if ($dir_list = opendir($dir))
-{
-while(($filename = readdir($dir_list)) != false)
-{
-?>
-<p><a href="<?php echo $filename; ?>"><?php echo $filename;
-?></a></p>
-<?php
-}
-closedir($dir_list);
-}
+// current directory
+echo getcwd() . "\n";
 
 ?>
+
