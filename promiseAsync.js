@@ -15,6 +15,8 @@ function promisify(nodeAsyncFn, context) {
 
      nodeAsyncFn.apply(context || {}, args);
 
-     return defer.promise;
+     return console.log( defer.promise);
+     //adding the console log
+     //console.log(defer.promise);
    };
  };
